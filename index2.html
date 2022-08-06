@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>ENCRIPTADOR</title>
+ <meta charset=UTF-8>
+
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <meta name="viewport" content="width=device-width">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="titulo"><img id="img3"src="Imagenes/3.png"><h1 id="nav">Encriptador</h1></div>
+
+<main class="container">	
+
+ <section id="izquierda" class="row">
+	<div id="idRow">
+		<textarea id="tex1" onkeyup="mayusculas(this);" placeholder="Ingrese texto aquí"></textarea>
+	</div>
+		
+	<div id="divBotones">
+		<h6> ☞ Solo letras minúsculas y sin acento</h6>
+		<button id ="bto-1" name="bt">Encriptador</button>
+        <button id="bto-2">Desencriptador</button>
+	</div>
+ </section> 
+
+    <div id="divDerecha"></div>
+      
+    <section id ="derecha" class="row">
+      	<img id ="img1" src="Imagenes/2.png">
+      	<h1 id="h1">Ningún Mensaje fue escrito</h1>
+      	<p>Ingresa el texto que desees encriptar o desencriptar.</p>
+      	
+      	<textarea id="text" disabled cols="4" rows="8"></textarea> 
+       
+       <div id="divCopiar">
+       <button id="copiar">COPIAR</button>    	
+       </div>
+   </section>
+</main>
+ 
+<footer><h3>©DESARROLLADO POR FABRICIO--Challenge Alura--</h3></footer>
+<script src="app.js"></script>
+</body>
+</html>
