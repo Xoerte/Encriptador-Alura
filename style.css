@@ -6,15 +6,19 @@
    }
 #nav {
 	margin-right: 500% !important;
-    margin-left: 10% !important;
+    margin-left: 20% !important;
 } 
 
   #img3 {
    width:6% !important;
    margin-left: 3px !important;
-  
+}
+.titulo {
+width: 150% !important;
+
+ }
    
-  }
+  
   #izquierda {
   	width: auto ;
    margin: auto  ;
@@ -25,13 +29,14 @@
   }
 
   #derecha {
-  	width: 70% !important;
+  	width: 80% !important;
    margin-left: 10% !important;
    margin-top: 10% !important;
   
   }
 
- button {
+
+button {
  	width: 115% !important; 
     margin-left: 20% !important;
    padding: 5%;
@@ -98,7 +103,7 @@ body {
 }
 #izquierda {
 	
-    background-color: red ;
+    background-color: #cce0ff ;
     margin-left: 5%;
     width: 100%;
 
