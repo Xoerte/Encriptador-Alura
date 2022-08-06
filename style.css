@@ -5,17 +5,19 @@
    	flex-direction: column !important;
    }
 #nav {
-	margin-right: 500% !important;
-    margin-left: 20% !important;
+	
+    margin-left: 30px !important;
+    margin-right: -5% !important;
 } 
 
   #img3 {
-   width:6% !important;
+   width:10% !important;
    margin-left: 3px !important;
+   
 }
 .titulo {
-width: 150% !important;
-
+width: auto !important;
+background-color:#cce0ff !important ;
  }
    
   
@@ -65,8 +67,13 @@ footer > h3 {
 #tex1 {
 	width: 150% !important;
 }
+#nav {
+	margin-left:50px !important; 
 
 }
+
+}
+
 
 
 * {
