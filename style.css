@@ -151,32 +151,38 @@ button {
 #bto-1 {
 	background-color: #005580;
     color:#e6f3ff ;
-    transition: 0.3s;
+    transition: 0.8s;
     font-size: 20px;
+    border:none;
 }
 #bto-1:hover {
-	
-	opacity: 0.50;
+	transform: scale(1.05);
+	filter: brightness(1.20);
 }
 #bto-2 {
 	background-color: #e6f3ff;
     color: #005580;
-    transition: 0.3s;
+    transition: 0.8s;
     font-size: 20px;
+    border-color:#005580;
 }
 #bto-2:hover {
-    opacity: 0.60;
+   filter: brightness(1.20);
+    transform: scale(1.05);
 }
 #copiar {
-	transition: 0.3s;
+	transition: 0.8s;
     font-weight:bold;
     width: 92%;
     height: 70px; 
     background-color:#e6f3ff;
-
+    color:#005580;
+    border-color:#005580;
+    font-size:12px;
 }
 #copiar:hover {
-  opacity: 0.60;
+  filter: brightness(1.20);
+    transform: scale(1.02);
 }
 
 footer {
